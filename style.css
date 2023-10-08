@@ -1,110 +1,144 @@
-body,
-h1,
-h2,
-ul,
-li,
-p,
-form {
-  margin: 0;
-  padding: 0;
+body, h1, h2, ul, li, p, form {
+    margin: 0;
+    padding: 0;
 }
 body {
-  font-family: "Montserrat", sans-serif;
-  background-color: #f0f0f0ef;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
 }
 header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #083281;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-  z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #4785f8;
+    color: #ffffffcc;
+    padding: 5px 0;
+    text-align: center;
+    z-index: 1;
 }
 
 header h1 a {
-  font-family: monospace;
-  text-decoration: none;
-  color: #fff;
+    font-family:cursive;
+    text-decoration: none;
+    color: #eeecec;
 }
 
 nav ul {
-  list-style: none;
-  text-align: center;
-  margin-top: 20px;
+    list-style: none;
+    text-align: center;
+    margin-top: 16px;
 }
 
 nav li {
-  display: inline;
-  margin-right: 20px;
+    display: inline;
+    margin-right: 20px;
 }
 
 nav a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-  transition: color 0.3s ease;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: #f0f0f0;
+    color: #f0f0f0af;
+    font-weight: bold;
 }
 
 main {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 40px 0;
+    padding: 40px 0;
+    
+    
 }
 
 #home {
-  background-image: url("photos/Animation\ Tech\ GIF\ by\ Matthew\ Butler\ -\ Find\ &\ Share\ on\ GIPHY.gif"); /* Replace with your background image */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #fff;
-  text-align: center;
-  padding: 100px 0;
+    margin: 120px 0 12px 0;
+    background-image: url(photos/undraw_Camera_re_cnp4.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size:contain;
+    padding: 120px 0 120px ;
+    
 }
 
+
 #home .container {
-  max-width: 800px;
-  margin: 0 auto;
+    max-width: 800px;
+    padding: 0 12px 12px 5px;
 }
 
 #home h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
-  font-weight: bold;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 120px;
 }
 
 #home p {
-  font-size: 24px;
-  margin-bottom: 30px;
+    font-size: 24px;
+    margin-left: 120px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+
 }
 
 #home .btn {
-  background-color: #083281;
-  color: #fff;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
+    background-color: #2e77ffa1;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-left: 120px;
+
 }
 
 #home .btn:hover {
-  background-color: #87a0ce;
+    background-color: #87a0ce;
+}
+.datail-main {
+   margin: 100px 0 80px 0;
+  
+}
+.detail-article h1 {
+    text-align: center;
+    color:#696767;
+}
+.detail-article p {
+    text-align: center;
+    margin-bottom:12px;
+    color:#575555;
+    
+
+}
+.display-cont{
+    margin: 100px 0 0 30px;
+    width: 50%;
+    letter-spacing: 1px;
+    font-size: larger;
+    color: #696767;
+   
+}
+.detail-article img{
+    width:50%;
+    float: right;
+   
+   
 }
 
+
+
+
 footer {
-  background-color: #083281;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+    background-color: #4785f8;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
+
